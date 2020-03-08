@@ -3,7 +3,7 @@ import About from './pages/about/index';
 
 function App() {
   return (
-    <div className="layout">
+    <div className="page vertical centered">
       <About />
     </div>
   );

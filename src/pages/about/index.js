@@ -13,8 +13,11 @@ function About() {
             <p>
                 Want to cooperate or just fancy say hi, then get in touch.
                 {/* drop me a message on hixid@ya.ru. */}
-                {/* Link to linkedIn, github, mail */}
             </p>
+
+            <div>
+                 {/* Link to linkedIn, github, mail */}
+            </div>
         </div>
     );
 }
