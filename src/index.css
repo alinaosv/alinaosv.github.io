@@ -1,5 +1,9 @@
 @import-normalize;
 
+html {
+  line-height: 1.5;
+}
+
 body {
   height: 100vh;
   background: #ffc02a;
@@ -11,8 +15,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.page {
+.pageWrap {
   height: 100vh;
+}
+
+.page {
+  max-width: 50rem;
 }
 
 .vertical {

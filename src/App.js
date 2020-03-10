@@ -3,7 +3,7 @@ import About from './pages/about/index';
 
 function App() {
   return (
-    <div className="page vertical centered">
+    <div className="pageWrap vertical centered">
       <About />
     </div>
   );

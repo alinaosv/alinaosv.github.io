@@ -1,22 +1,30 @@
 import React from 'react';
+import Link from '../../components/link/index';
 
 function About() {
     return (
-        <div>
+        <div className="page">
             <p>
                 Hi, I'm Alina <span role="img" aria-label="girl emoji">👱🏻‍♀️</span> 
-                I'm a frontend dev, currently building interfaces at <a target="_blank" href="https://yandex.ru">Yandex</a>.
-                Recently I worked at <a target="_blank" href="https://digdes.ru">DigDes</a> - creating web sites for estate & financial agencies.
+                I'm a frontend dev, currently building interfaces at <Link to="https://yandex.ru">Yandex</Link>.
+                Recently I worked at <Link to="https://digdes.ru">DigDes</Link> – developing interfaces for estate & financial agencies.
                 I have a passion for yummy animations, clean code & elegant solutions.
             </p>
             
             <p>
                 Want to cooperate or just fancy say hi, then get in touch.
-                {/* drop me a message on hixid@ya.ru. */}
             </p>
 
             <div>
-                 {/* Link to linkedIn, github, mail */}
+                 <Link to="https://www.linkedin.com/in/alinaosv">
+                    LinkedIn
+                </Link>
+                 <Link to="https://github.com/alinaosv">
+                    Github
+                 </Link>
+                 <Link to="mailto:hixid@ya.ru">
+                    Mail
+                 </Link>
             </div>
         </div>
     );
