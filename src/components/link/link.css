@@ -1,0 +1,16 @@
+.link {
+    display: inline-block;
+    text-decoration-style: dotted;
+}
+
+.link--yandex {
+    color: #000;
+}
+
+.link--yandex::first-letter {
+    color: #FF0000;
+}
+
+.link--digdes {
+    color: #45A7A6;
+}
