@@ -10,7 +10,9 @@ function About() {
         <div className="page">
             <p>
                 Hi, I'm Alina <span role="img" aria-label="girl emoji">👱🏻‍♀️</span> 
-                A frontend dev, currently building interfaces at <Link to="https://yandex.ru" company="yandex">Yandex</Link>.
+            </p>
+            <p>
+                I'm a frontend dev, currently building interfaces at <Link to="https://yandex.ru" company="yandex">Yandex</Link>.
                 Recently I worked at <Link to="https://digdes.ru" company="digdes">DigDes</Link> – developing interfaces for estate & financial agencies.
                 I have a passion for yummy animations, clean code & elegant solutions.
             </p>
