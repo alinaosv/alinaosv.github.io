@@ -5,9 +5,9 @@ import SocialList from '../../components/socialList/index';
 function About() {
     return (
         <div className="page">
-            <p>
+            <h2>
                 Hi, I'm Alina <span role="img" aria-label="girl emoji">👱🏻‍♀️</span> 
-            </p>
+            </h2>
             <p>
                 I'm a frontend dev, currently building interfaces at <Link to="https://yandex.ru" company="yandex">Yandex</Link>.
                 Recently I worked at <Link to="https://digdes.ru" company="digdes">DigDes</Link> – developing interfaces for estate & financial agencies.

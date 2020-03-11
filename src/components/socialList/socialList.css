@@ -1,9 +1,19 @@
 .list {
-    margin: 0;
+    margin: 2rem 0 0;
     padding: 0;
     list-style: none;
 }
 
+.listItem svg {
+    fill: #C89B1F;
+    transition: all .3s ease-out;
+}
+
+.listItem:hover svg {
+    fill: #ff0078;
+    transform: scale(1.2);
+}
+
 .listItem + .listItem {
-    margin-left: 1.2em;
+    margin-left: 1.2rem;
 }
