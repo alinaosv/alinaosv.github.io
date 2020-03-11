@@ -28,6 +28,10 @@ body {
   flex-direction: column;
 }
 
+.horizontal {
+  display: flex;
+}
+
 .centered {
   justify-content: center;
   align-items: center;
