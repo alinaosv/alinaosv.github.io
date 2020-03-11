@@ -3,6 +3,10 @@
     text-decoration-style: dotted;
 }
 
+.link:hover {
+    text-decoration-style: solid;
+}
+
 .link--yandex {
     color: #000;
 }
