@@ -1,9 +1,9 @@
 import React from 'react';
 import './socialList.css';
 import Link from '../../components/link/index';
-import {ReactComponent as LinkedinIco} from '../../icons/linkedin.svg';
-import {ReactComponent as GithubIco} from '../../icons/github.svg';
-import {ReactComponent as MailIco} from '../../icons/mail.svg';
+import {ReactComponent as LinkedinIco} from '../../assets/icons/linkedin.svg';
+import {ReactComponent as GithubIco} from '../../assets/icons/github.svg';
+import {ReactComponent as TelegramIco} from '../../assets/icons/telegram.svg';
 
 export default function SocialList() {
     return (
@@ -19,8 +19,8 @@ export default function SocialList() {
                 </Link>
             </li>
             <li className="listItem">
-                <Link to="mailto:hixid@ya.ru">
-                    <MailIco />
+                <Link to="https://telegram.me/alinaosv">
+                    <TelegramIco />
                 </Link>
             </li>
         </ul>
